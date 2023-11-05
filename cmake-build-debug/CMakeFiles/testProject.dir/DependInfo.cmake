@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/demussong/CLionProjects/testProject/exitTest.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/exitTest.c.o"
   "/Users/demussong/CLionProjects/testProject/externTest.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/externTest.c.o"
   "/Users/demussong/CLionProjects/testProject/fileSync.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/fileSync.c.o"
-  "/Users/demussong/CLionProjects/testProject/in2.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/in2.c.o"
+  "/Users/demussong/CLionProjects/testProject/inlineTest.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/inlineTest.c.o"
   "/Users/demussong/CLionProjects/testProject/main.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/main.c.o"
   "/Users/demussong/CLionProjects/testProject/mallocTest.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/mallocTest.c.o"
   "/Users/demussong/CLionProjects/testProject/myPointer.c" "/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles/testProject.dir/myPointer.c.o"

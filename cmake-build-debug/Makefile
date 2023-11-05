@@ -225,29 +225,29 @@ fileSync.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/fileSync.c.s
 .PHONY : fileSync.c.s
 
-in2.o: in2.c.o
-.PHONY : in2.o
+inlineTest.o: inlineTest.c.o
+.PHONY : inlineTest.o
 
 # target to build an object file
-in2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/in2.c.o
-.PHONY : in2.c.o
+inlineTest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/inlineTest.c.o
+.PHONY : inlineTest.c.o
 
-in2.i: in2.c.i
-.PHONY : in2.i
+inlineTest.i: inlineTest.c.i
+.PHONY : inlineTest.i
 
 # target to preprocess a source file
-in2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/in2.c.i
-.PHONY : in2.c.i
+inlineTest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/inlineTest.c.i
+.PHONY : inlineTest.c.i
 
-in2.s: in2.c.s
-.PHONY : in2.s
+inlineTest.s: inlineTest.c.s
+.PHONY : inlineTest.s
 
 # target to generate assembly for a file
-in2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/in2.c.s
-.PHONY : in2.c.s
+inlineTest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/inlineTest.c.s
+.PHONY : inlineTest.c.s
 
 main.o: main.c.o
 .PHONY : main.o
@@ -390,9 +390,9 @@ help:
 	@echo "... fileSync.o"
 	@echo "... fileSync.i"
 	@echo "... fileSync.s"
-	@echo "... in2.o"
-	@echo "... in2.i"
-	@echo "... in2.s"
+	@echo "... inlineTest.o"
+	@echo "... inlineTest.i"
+	@echo "... inlineTest.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

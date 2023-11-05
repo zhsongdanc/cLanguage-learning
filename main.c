@@ -6,6 +6,7 @@
 
 //#include <stdlib.h>
 //#include <printf.h>
+#include <printf.h>
 #include "test.h"
 
 // 1. 父子进程不同的有：寄存器、memory
@@ -14,11 +15,13 @@
 
 int main(int argc, char** argv)
 {
+    inline_test();
 
 //    openFpTest();
 //    copyFileTest();
 //    forkTest();
-    sizeofBufferTest();
+//    sizeofBufferTest();
+
 //    linkTest();
 //    pipeTest();
 //    extern_test();

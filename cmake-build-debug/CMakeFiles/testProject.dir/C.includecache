@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/demussong/CLionProjects/testProject/simpleFunTest.c
-unistd.h
--
+/Users/demussong/CLionProjects/testProject/main.c
 printf.h
 -
-sys/wait.h
--
-stdlib.h
--
-sys/file.h
--
+test.h
+/Users/demussong/CLionProjects/testProject/test.h
+
+/Users/demussong/CLionProjects/testProject/test.h
 

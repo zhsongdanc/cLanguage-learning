@@ -183,18 +183,18 @@ CMakeFiles/testProject.dir/xv6/sleep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testProject.dir/xv6/sleep.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/demussong/CLionProjects/testProject/xv6/sleep.c -o CMakeFiles/testProject.dir/xv6/sleep.c.s
 
-CMakeFiles/testProject.dir/in2.c.o: CMakeFiles/testProject.dir/flags.make
-CMakeFiles/testProject.dir/in2.c.o: ../in2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/testProject.dir/in2.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testProject.dir/in2.c.o -c /Users/demussong/CLionProjects/testProject/in2.c
+CMakeFiles/testProject.dir/inlineTest.c.o: CMakeFiles/testProject.dir/flags.make
+CMakeFiles/testProject.dir/inlineTest.c.o: ../inlineTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/testProject.dir/inlineTest.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/testProject.dir/inlineTest.c.o -c /Users/demussong/CLionProjects/testProject/inlineTest.c
 
-CMakeFiles/testProject.dir/in2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testProject.dir/in2.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/demussong/CLionProjects/testProject/in2.c > CMakeFiles/testProject.dir/in2.c.i
+CMakeFiles/testProject.dir/inlineTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testProject.dir/inlineTest.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/demussong/CLionProjects/testProject/inlineTest.c > CMakeFiles/testProject.dir/inlineTest.c.i
 
-CMakeFiles/testProject.dir/in2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testProject.dir/in2.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/demussong/CLionProjects/testProject/in2.c -o CMakeFiles/testProject.dir/in2.c.s
+CMakeFiles/testProject.dir/inlineTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testProject.dir/inlineTest.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/demussong/CLionProjects/testProject/inlineTest.c -o CMakeFiles/testProject.dir/inlineTest.c.s
 
 # Object files for target testProject
 testProject_OBJECTS = \
@@ -207,7 +207,7 @@ testProject_OBJECTS = \
 "CMakeFiles/testProject.dir/simpleFunTest.c.o" \
 "CMakeFiles/testProject.dir/exitTest.c.o" \
 "CMakeFiles/testProject.dir/xv6/sleep.c.o" \
-"CMakeFiles/testProject.dir/in2.c.o"
+"CMakeFiles/testProject.dir/inlineTest.c.o"
 
 # External object files for target testProject
 testProject_EXTERNAL_OBJECTS =
@@ -221,7 +221,7 @@ testProject: CMakeFiles/testProject.dir/myPointer.c.o
 testProject: CMakeFiles/testProject.dir/simpleFunTest.c.o
 testProject: CMakeFiles/testProject.dir/exitTest.c.o
 testProject: CMakeFiles/testProject.dir/xv6/sleep.c.o
-testProject: CMakeFiles/testProject.dir/in2.c.o
+testProject: CMakeFiles/testProject.dir/inlineTest.c.o
 testProject: CMakeFiles/testProject.dir/build.make
 testProject: CMakeFiles/testProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/demussong/CLionProjects/testProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable testProject"

@@ -26,3 +26,7 @@ void linkTest();
 void copyFileTest();
 void openFpTest();
 void sizeofBufferTest();
+void inline_test();
+inline char* dbtest(int a);
+inline void test2();
+

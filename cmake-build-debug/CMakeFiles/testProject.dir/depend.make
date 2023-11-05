@@ -9,6 +9,8 @@ CMakeFiles/testProject.dir/externTest.c.o: \
  ../externTest.c
 CMakeFiles/testProject.dir/fileSync.c.o: \
  ../fileSync.c
+CMakeFiles/testProject.dir/inlineTest.c.o: \
+ ../inlineTest.c
 CMakeFiles/testProject.dir/main.c.o: \
  ../main.c \
  ../test.h

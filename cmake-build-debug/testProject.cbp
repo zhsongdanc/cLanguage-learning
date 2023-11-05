@@ -90,7 +90,7 @@
 		<Unit filename="/Users/demussong/CLionProjects/testProject/fileSync.c">
 			<Option target="testProject"/>
 		</Unit>
-		<Unit filename="/Users/demussong/CLionProjects/testProject/in2.c">
+		<Unit filename="/Users/demussong/CLionProjects/testProject/inlineTest.c">
 			<Option target="testProject"/>
 		</Unit>
 		<Unit filename="/Users/demussong/CLionProjects/testProject/main.c">

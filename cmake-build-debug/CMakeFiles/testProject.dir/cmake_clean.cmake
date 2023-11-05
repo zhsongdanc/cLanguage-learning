@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/testProject.dir/exitTest.c.o"
   "CMakeFiles/testProject.dir/externTest.c.o"
   "CMakeFiles/testProject.dir/fileSync.c.o"
-  "CMakeFiles/testProject.dir/in2.c.o"
+  "CMakeFiles/testProject.dir/inlineTest.c.o"
   "CMakeFiles/testProject.dir/main.c.o"
   "CMakeFiles/testProject.dir/mallocTest.c.o"
   "CMakeFiles/testProject.dir/myPointer.c.o"

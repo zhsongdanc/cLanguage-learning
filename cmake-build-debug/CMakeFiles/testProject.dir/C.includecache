@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/demussong/CLionProjects/testProject/simpleFunTest.c
+unistd.h
+-
+printf.h
+-
+sys/wait.h
+-
+stdlib.h
+-
+sys/file.h
+-
+
